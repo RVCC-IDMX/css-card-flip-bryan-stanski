@@ -187,6 +187,10 @@ img {
   transform: rotateY(0.5turn);
 }
 
+input {
+  display: none;
+}
+
 /* Footer - Needs to be adjusted for more than ~2 cards */
 footer {
   position: absolute;
@@ -209,22 +213,12 @@ footer {
     padding-right: 75px;
   }
 
-  .card:hover .card__content,
-  .card-2:hover .card-2__content {
-    transform: rotateY(0);
-  }
-
-  .card:active .card__content,
-  .card-2:active .card-2__content {
-    transform: rotateY(0.5turn);
-  }
-
   .text {
     &__front {
       &__lvl {
         width: 225px;
         top: 168%;
-        left: 3px;
+        left: 15%;
         font-weight: bolder;
         font-size: 45px;
         color: white;
@@ -239,7 +233,7 @@ footer {
       &__lvl {
         width: 225px;
         top: 168%;
-        left: 3px;
+        left: 15%;
         font-weight: bolder;
         font-size: 45px;
         color: white;
@@ -247,5 +241,60 @@ footer {
         backface-visibility: hidden;
       }
     }
+  }
+
+  .card {
+    &__content {
+      position: relative;
+      padding: 5em;
+    }
+
+    &__front,
+    &__back {
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+    }
+
+    &__back {
+      display: none;
+    }
+
+    &__front {
+      transform: rotateY(1turn);
+      backface-visibility: hidden;
+    }
+  }
+
+  .card-2 {
+    &__content {
+      position: relative;
+      padding: 5em;
+    }
+
+    &__front,
+    &__back {
+      position: absolute;
+      top: 10px;
+      bottom: 10px;
+      left: 10px;
+      right: 10px;
+    }
+
+    &__back {
+      display: none;
+    }
+
+    &__front {
+      transform: rotateY(1turn);
+      backface-visibility: hidden;
+    }
+  }
+
+  .card:hover .card__content,
+  .card-2:hover .card-2__content {
+    transform: none;
   }
 }
