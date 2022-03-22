@@ -1,16 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Card Flip</title>
+    <link rel="stylesheet" href="scss/main.scss" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Platform Ticket</title>
-  <link rel="stylesheet" href="scss/main.scss">
-</head>
-
-<body>
-  <h1>Parcel Starter</h1>
-</body>
-
+  <body>
+    <h1>Maplestory Boss Cards</h1>
+    <h4>*On Mobile Press and Hold on the Card*</h3>
+    <div class="cards">
+      <div class="card">
+        <div class="card__content">
+          <div class="card__back">
+            <p class="text__back">Maplestory</p>
+            <img id="card-back" src="imgs/card-back.png" alt="Card Back" />
+            <p class="text__back__boss">Boss</p>
+          </div>
+          <div class="card__front">
+            <p class="text__front">Lucid</p>
+            <img
+              id="card-front"
+              src="imgs/lucid.png"
+              alt="Card Front - Lucid"
+            />
+            <p class="text__front__lvl">Level 230</p>
+          </div>
+        </div>
+      </div>
+      <div class="card-2">
+        <div class="card-2__content">
+          <div class="card__back">
+            <p class="text-2__back">Maplestory</p>
+            <img id="card-back" src="imgs/card-back.png" alt="Card Back" />
+            <p class="text__back__boss">Boss</p>
+          </div>
+          <div class="card-2__front">
+            <p class="text-2__front">Damien</p>
+            <img
+              id="card-2-front"
+              src="imgs/damien card.png"
+              alt="Card Front - Damien"
+            />
+            <p class="text-2__front__lvl">Level 210</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      More Bosses Coming Soon...
+    </footer>
+  </body>
 </html>

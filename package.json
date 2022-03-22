@@ -5,13 +5,13 @@
   "source": "src/index.html",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "rm -f dist/* && parcel build src/index.html"
+    "build": "rm -rf dist/* &&  parcel build --no-optimize src/index.html"
   },
   "keywords": [],
   "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.3.2",
     "parcel": "^2.3.2",
-    "sass": "^1.49.8"
+    "sass": "^1.49.9"
   }
 }
