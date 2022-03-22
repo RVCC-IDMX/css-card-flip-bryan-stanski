@@ -1,34 +1,19 @@
-# Starter Page Builder
+# Maplestory Boss Cards
 
-## How to use this repo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5ebef149-996e-4299-922f-dbb89b0e49b7/deploy-status)](https://app.netlify.com/sites/css-card-flip-bryan-stanski/deploys)
 
-1. Clone the repo
-1. In your terminal, run
-   ```bash
-   npm install
-   ```
-1. In your terminal, run the parcel watcher
-   ```bash
-   npm run dev
-   ```
+## Card Flip on Hover
 
-### The Parcel dev script
+When you are on mobile, it will automatically be set to the back of the card, but when you are on a laptop/desktop you are able to hover over the card to flip to the back of the card.
 
-The Parcel dev script will watch your files for changes automatically and will live update your browser.
+## Resources
 
-1. In your browser, go to `http://localhost:1234/`
-1. ParcelJS will reload the page when changes are made
+Art for [Lucid](https://maplestory.fandom.com/wiki/Lucid/Monster) & [Damien](https://maplestory.fandom.com/wiki/Damien/Monster) from Maplestory.fandom.com
 
-### How to stop a watcher
+Information for Bosses found on [Maplestory Fandom](https://maplestory.fandom.com/wiki/MapleStory_Wiki)
 
-When you want to stop the watcher, click in the terminal and press ctrl-c
+Art for the [Maple Leaf](https://www.deviantart.com/5995260108/art/Maplestory-Leaf-190966957) (both for the front of the cards & the favicon) from user 5995260108 on DeviantArt
 
-## When you are ready to go to production
+[Maplestory Font](https://freefonts.kr/fonts/maplestory-otf-light) from freefonts.kr
 
-1. In your terminal, run
-
-   ```bash
-   npm run build
-   ```
-
-1. The final version of your site will be in the `dist` folder.
+All remaining art was created by me
